@@ -8,10 +8,11 @@
         "linkedin": "colonnelli-stefano/"
     },
     "email": "colonnelli.st@gmail.com",
-    "ps1_hostname": "liveterm",
+    "ps1_hostname": "xaer.dev",
     "ps1_username": "user",
     "repo": "https://github.com/Cveinnt/LiveTerm",
     "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+    "donate": false,
     "donate_urls": {
         "paypal": "",
         "patreon": ""
