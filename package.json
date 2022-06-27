@@ -1,11 +1,11 @@
 {
   "name": "liveterm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Stefano Colonnelli",
+    "url": "https://xaer.dev",
+    "email": "colonnelli.st@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
