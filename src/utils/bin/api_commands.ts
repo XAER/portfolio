@@ -1,18 +1,30 @@
 // // List of commands that require API calls
 
+import config from '../../../config.json';
 import { getProjects } from '../api';
 import { getQuote } from '../api';
 import { getReadme } from '../api';
 import { getWeather } from '../api';
 
 export const projects = async (args: string[]): Promise<string> => {
-  const projects = await getProjects();
-  return projects
-    .map(
-      (repo) =>
-        `${repo.name} - <a class="text-light-blue dark:text-dark-blue underline" href="${repo.html_url}" target="_blank">${repo.html_url}</a>`,
-    )
-    .join('\n');
+  const isCustomProjectsActive = config.custom_projects;
+  if (isCustomProjectsActive) {
+    const projectsList = config.projects;
+
+    return projectsList
+      .map(
+    (project) =>
+        `${project.name} - <a class=text-light-blue dark:text-dark-blue underline" href="${project.url}" target="_blank">${project.url}</a> \n - Description: ${project.description}`,
+    ).join('\n');
+  } else {
+    const projects = await getProjects();
+    return projects
+      .map(
+        (repo) =>
+          `${repo.name} - <a class="text-light-blue dark:text-dark-blue underline" href="${repo.html_url}" target="_blank">${repo.html_url}</a>`,
+      )
+      .join('\n');
+  }
 };
 
 export const quote = async (args: string[]): Promise<string> => {

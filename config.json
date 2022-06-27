@@ -8,6 +8,14 @@
         "linkedin": "colonnelli-stefano/"
     },
     "email": "colonnelli.st@gmail.com",
+    "custom_projects": true,
+    "projects": [
+        {
+            "name": "flutter_map_text_marker",
+            "url": "https://github.com/XAER/flutter_map_text_marker",
+            "description": "A flutter_map plugin that adds the ability to create multiple text markers on a map."
+        }
+    ],
     "ps1_hostname": "xaer.dev",
     "ps1_username": "user",
     "repo": "https://github.com/XAER/portfolio",
