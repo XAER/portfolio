@@ -24,6 +24,8 @@ Here is a list of the technologies used:
 * Typescript
 
 ## Release History
+* 0.2.2:
+  * Updated logo on the "MADE WITH" badge
 * 0.2.1:
   * Updated the Banner to display the prompt to use the "projects" command.
   * Added the custom_projects flag in config.json and the projects list of personal projects to display the custom projects I've worked on.
@@ -32,9 +34,9 @@ Here is a list of the technologies used:
 * 0.1.0:
   * Initial release
 
-[version-image]: https://img.shields.io/badge/Version-0.2.1-brightgreen?style=for-the-badge&logo=appveyor
-[version-url]: https://img.shields.io/badge/version-0.2.1-green
-[Frontend-image]: https://img.shields.io/badge/Made%20with-NextJS-green?style=for-the-badge&logo=appveyor
+[version-image]: https://img.shields.io/badge/Version-0.2.2-brightgreen?style=for-the-badge&logo=appveyor
+[version-url]: https://img.shields.io/badge/version-0.2.2-green
+[Frontend-image]: https://img.shields.io/badge/Made%20with-NextJS-green?style=for-the-badge&logo=nextdotjs
 [Frontend-url]:  https://img.shields.io/badge/Made%20with-NextJS-green
 [liveterm-url]: https://github.com/Cveinnt/LiveTerm
 [xaerdev-repo]: Portfolio
