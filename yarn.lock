@@ -1166,7 +1166,14 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-husky@^8.0.1:
+husky-init@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/husky-init/-/husky-init-8.0.0.tgz#af1773803a44a0625a2d9d415cc892f51847e7d0"
+  integrity sha512-P9qq7eOInj853p57QhK/QDKahx8Vd+hWWmzA+N+Q3/dsHH+DFUeRurRd6ZSFzF1Ol/6yUS+fa9yMw5Dao0pxxw==
+  dependencies:
+    husky "^8.0.0"
+
+husky@^8.0.0, husky@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.1.tgz#511cb3e57de3e3190514ae49ed50f6bc3f50b3e9"
   integrity sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==
