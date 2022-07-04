@@ -24,6 +24,9 @@ Here is a list of the technologies used:
 * Typescript
 
 ## Release History
+* 0.3.0:
+  * Updated light and dark color themes to match my personal themes installed on Visual Studio Code (Shades of Purple for the Dark Theme and Noctis Lillac for the Light Theme)
+  * Updated PayPal.me link
 * 0.2.2:
   * Updated logo on the "MADE WITH" badge
 * 0.2.1:
@@ -34,8 +37,8 @@ Here is a list of the technologies used:
 * 0.1.0:
   * Initial release
 
-[version-image]: https://img.shields.io/badge/Version-0.2.2-brightgreen?style=for-the-badge&logo=appveyor
-[version-url]: https://img.shields.io/badge/version-0.2.2-green
+[version-image]: https://img.shields.io/badge/Version-0.3.0-brightgreen?style=for-the-badge&logo=appveyor
+[version-url]: https://img.shields.io/badge/version-0.3.0-green
 [Frontend-image]: https://img.shields.io/badge/Made%20with-NextJS-green?style=for-the-badge&logo=nextdotjs
 [Frontend-url]:  https://img.shields.io/badge/Made%20with-NextJS-green
 [liveterm-url]: https://github.com/Cveinnt/LiveTerm

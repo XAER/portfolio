@@ -20,29 +20,29 @@
     "ps1_username": "user",
     "repo": "https://github.com/XAER/portfolio",
     "resume_url": "https://resume.io/r/xGOkLk6wM",
-    "donate": false,
+    "donate": true,
     "donate_urls": {
-        "paypal": "",
+        "paypal": "https://paypal.me/StefanoColonnelli",
         "patreon": ""
     },
     "colors": {
         "light": {
-            "background": "#F0F4EF",
-            "foreground": "#30323D",
-            "yellow": "#D79921",
-            "green": "#98971A",
-            "gray": "#7C6F64",
+            "background": "#F4F3F9",
+            "foreground": "#8771F4",
+            "yellow": "#FF8B00",
+            "green": "#00C16E",
+            "gray": "#6A46FF",
             "blue": "#458588",
             "red": "#CA2124"
         },
         "dark": {
-            "background": "#30323D",
-            "foreground": "#F0F4EF",
-            "yellow": "#5E81AC",
-            "green": "#A3BE8C",
-            "gray": "#88C0D0",
+            "background": "#343062", 
+            "foreground": "#8DFFFF",
+            "yellow": "#FFD400",
+            "green": "#7BFF79",
+            "gray": "#B1A2F0",
             "blue": "#EBCB8B",
-            "red": "#9B6A6C"
+            "red": "#BF616A"
         }
     }
 }

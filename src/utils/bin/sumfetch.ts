@@ -38,7 +38,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
    \\             y'                        ${config.donate ? "-----------" : ''}
     '-.._____..-'                           ${config.donate ? " DONATE" : ""} 
                                             ${config.donate ? ` <u><a href="${config.donate_urls.paypal}" target="_blank">${config.donate_urls.paypal}</a></u>` : ""}
-                                            ${config.donate ? ` <u><a href="${config.donate_urls.patreon}" target="_blank">${config.donate_urls.patreon}</a></u>` : ''}
+                                            ${config.donate && config.donate_urls.patreon != "" ? ` <u><a href="${config.donate_urls.patreon}" target="_blank">${config.donate_urls.patreon}</a></u>` : ''}
 
     `;
   }
