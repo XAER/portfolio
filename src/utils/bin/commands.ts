@@ -91,6 +91,12 @@ export const reddit = async (args: string[]): Promise<string> => {
   return `Searching reddit for ${args.join(' ')}...`;
 };
 
+// Open personal blog site
+export const blog = async (args: string[]): Promise<string> => {
+  window.open(`https://blog.xaer.dev/`);
+  return `Opening blog...`;
+};
+
 // Typical linux commands
 export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
@@ -152,6 +158,7 @@ Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 Type 'projects' to display a list of projects I've personally worked on.
+Type 'blog' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.blog}" target="_blank">here</a></u> to open my personal blog, built with NextJS.
 `;
 };
 
